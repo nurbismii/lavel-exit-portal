@@ -27,7 +27,7 @@
 
 <body>
     <div id="app">
-        <nav class="navbar navbar-expand-md navbar-light bg-primary shadow-sm" style="background: linear-gradient(90deg, #0d6efd, #198754);">>
+        <nav class="navbar navbar-expand-md navbar-light bg-primary shadow-sm" style="background: linear-gradient(90deg, #0d6efd, #198754);">
             <div class="container">
                 <a class="navbar-brand text-white" href="{{ url('/') }}">
                     PT VDNI | Exit Portal
