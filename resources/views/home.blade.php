@@ -72,10 +72,10 @@
             {{-- Brand --}}
             <div class="d-flex align-items-center">
                 <span class="fw-bold fs-5">
-                    HR<span class="text-warning"></span>System
+                    HR<span class="text-warning"> </span>System
                 </span>
                 <span class="ms-3 small opacity-75">
-                    Human Resources Portal
+                    Exit Portal
                 </span>
             </div>
 

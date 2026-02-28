@@ -10,7 +10,7 @@
                 <div class="card-body p-4">
 
                     <div class="text-center mb-4">
-                        <h4 class="fw-bold mb-1">Login</h4>
+                        <h4 class="fw-bold mb-1">Masuk</h4>
                         <small class="text-muted">Silakan masuk ke akun Anda</small>
                     </div>
 
@@ -53,8 +53,8 @@
 
                         {{-- Button --}}
                         <div class="d-grid">
-                            <button type="submit" class="btn btn-primary rounded-3">
-                                Login
+                            <button type="submit" class="btn rounded-3 text-white" style="background: linear-gradient(90deg, #0d6efd, #198754);">
+                                Masuk
                             </button>
                         </div>
 
