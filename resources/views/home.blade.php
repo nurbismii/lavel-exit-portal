@@ -87,6 +87,10 @@
                     {{ auth()->user()->name }}
                 </span>
 
+                <a href="{{ route('password.change') }}" class="btn btn-sm btn-danger me-2">
+                    Ganti Password
+                </a>
+
                 <form method="POST" action="{{ route('logout') }}">
                     @csrf
                     <button type="submit" class="btn btn-sm btn-light">
@@ -224,6 +228,10 @@
                                 </h6>
                                 <small class="text-muted">
                                     NIK 工号 · {!! preg_replace('/('.$escapedQ.')/iu', '<mark>$1</mark>', e($emp->nik)) !!}
+                                </small>
+                                <br>
+                                <small class="text-muted">
+                                    KTP 身份证号 · {!! preg_replace('/('.$escapedQ.')/iu', '<mark>$1</mark>', e($emp->no_ktp)) !!}
                                 </small>
                             </div>
                         </div>
